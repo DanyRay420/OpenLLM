@@ -7,3 +7,4 @@ transformers[torch,tokenizers,accelerate] @ git+https://github.com/huggingface/t
 optimum @ git+https://github.com/huggingface/optimum.git@main
 accelerate @ git+https://github.com/huggingface/accelerate.git@main
 bitsandbytes @ git+https://github.com/TimDettmers/bitsandbytes.git@main
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
